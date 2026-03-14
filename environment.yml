@@ -1,0 +1,22 @@
+name: food-clip-gda
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - cudatoolkit
+  - numpy
+  - pandas
+  - scikit-learn
+  - jupyter
+  - matplotlib
+  - pip
+  - pip:
+    - ftfy
+    - regex
+    - tqdm
+    - open_clip_torch
