@@ -1,0 +1,6 @@
+model_name: ViT-B/32
+split: test
+num_classes: 101
+total_images: 25250
+top1_accuracy: 0.802970
+elapsed_seconds: 178.88
